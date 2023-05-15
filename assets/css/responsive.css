@@ -1,0 +1,25 @@
+@media screen and (max-width:650px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: self-start;
+        background-color: var(--White);
+    }
+    .card{
+        box-shadow: none;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .reuslt{
+        border-radius: 0 0 1rem 1rem;
+    }
+    .reuslt .info{
+        width: 250px;
+    }
+    .summary{
+        max-width: 100%;
+        width: 300px;
+    }
+}
